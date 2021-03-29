@@ -1,0 +1,19 @@
+{
+  "name": "event-loop-mutex",
+  "version": "1.0.0",
+  "description": "Async mutex implementation for the JavaScript event loop",
+  "main": "Mutex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brpylko/event-loop-mutex.git"
+  },
+  "author": "benzoic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brpylko/event-loop-mutex/issues"
+  },
+  "homepage": "https://github.com/brpylko/event-loop-mutex#readme"
+}
