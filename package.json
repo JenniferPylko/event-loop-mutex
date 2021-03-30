@@ -1,6 +1,6 @@
 {
   "name": "event-loop-mutex",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Async mutex implementation for the JavaScript event loop",
   "main": "Mutex.js",
   "scripts": {

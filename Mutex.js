@@ -33,6 +33,10 @@ class Mutex {
         }
     }
 
+    get [Symbol.toStringTag]() {
+        return "Mutex"
+    }
+
     lock() {
         return new Promise(async (resolve) => {
             while (Object.getOwnPropertySymbols(this[locks]).length > 0) {
